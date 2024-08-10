@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d2fed4b3-5f9a-484c-b28d-84e028fce52f" name="lab225">
+        <fileTransfer rootFolder="/media/lab225/diskA/wby" accessType="SFTP" host="10.188.65.176" port="22" sshConfigId="1f8acb93-64b3-47cf-823e-aeb3941b4b68" sshConfig="lab225@10.188.65.176:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="48deb659-138a-4c89-bdd3-dad99b7fcfe2" name="174">
+        <fileTransfer rootFolder="/media/sda" accessType="SFTP" host="10.188.65.174" port="22" sshConfigId="a3264c76-30cb-44d8-9fcb-51a4a9f5177a" sshConfig="lab225@10.188.65.174:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

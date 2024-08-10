@@ -1,0 +1,43 @@
+--------------Options--------------
+batchSize: 6
+beta1: 0.5
+beta2: 0.9
+checkpoints_dir: ./checkpoints
+continue_train: False
+display_freq: 100
+display_id: 1
+display_port: 8097
+display_single_pane_ncols: 0
+display_winsize: 256
+fineSize: [256, 256]
+gan_mode: lsgan
+gpu_ids: -1
+img_file: C:\Users\ww\Desktop\program\Rethinking-Inpainting-MEDFE-master\data\datasets\celeba
+isTrain: True
+iter_count: 1
+lambda_g: 0.1
+lambda_l1: 1
+lambda_per: 1
+lambda_sty: 250
+loadSize: [266, 266]
+lr: 0.0001
+lr_policy: lambda
+mask_file: none
+mask_type: 0
+model: han
+nThreads: 6
+name: paris_newR
+niter: 500000
+niter_decay: 0
+no_augment: True
+no_flip: True
+no_html: False
+no_rotation: True
+no_shuffle: False
+print_freq: 100
+resize_or_crop: resize_and_crop
+save_iters_freq: 10000
+save_latest_freq: 1000
+weight_decay: 0.0
+which_iter: latest
+----------------End----------------
